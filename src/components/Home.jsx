@@ -13,42 +13,42 @@ const Home = () => {
 
     return (
 
-        <main className='h-screen max-w-sreen bg-mywhite flex gap-2 scroll-smooth'>
+        <main className='h-screen  bg-mywhite flex gap-2 scroll-smooth'>
 
-            <section className='w-scren p-2 flex flex-col gap-3 items-center justify-center sticky '>
+            <section className='h-screen min-h-[400px] w-[300px] p-2 flex flex-col gap-3 items-center justify-center sticky max-[320px]:w-[50px]'>
 
-                <div className='h-[200px] aspect-square rounded-full overflow-hidden'>
+                <div className='h-[200px] aspect-square rounded-full overflow-hidden max-[320px]:h-[50px]'>
                     <img src="/profile_picture.jpg" />
                 </div>
 
-                <div className=' w-[200px] h-2/3 flex flex-col gap-3 items-center p-2 font-Inter'>
+                <div className=' w-[200px] h-3/4 flex flex-col gap-3 items-center p-2 font-Inter max-[320px]:w-[50px]'>
 
-                    <ul className='flex flex-col gap-2 h-1/2 text-myblue '>
+                    <ul className='flex flex-col gap-4 h-1/2 text-myblue max-[320px]:gap-5  justify-center  '>
 
-                        <li > <a href="#Home" className='flex justify-start items-center gap-2'> <div className='h-[30px] aspect-square'> <img src="/icons/home.svg"/></div> <span> Home </span></a> </li>
-                        <li > <a href="#Portfolio" className='flex justify-start items-center gap-2'> <div className='h-[30px] aspect-square'> <img src="/icons/portfolio.svg"/></div> <span> Portfolio </span> </a> </li>
-                        <li > <a href="#Aboutme" className='flex justify-start items-center gap-2'> <div className='h-[30px] aspect-square'> <img src="/icons/aboutme.svg"/></div> <span> Aboute Me </span> </a> </li>
-                        <li className='flex justify-start items-center gap-2 cursor-pointer' onClick={()=>handleContactw()}> <div className='h-[30px] aspect-square'> <img src="/icons/contact2.svg"/></div> <span> Contact me </span> </li>
+                        <li > <a href="#Home" className='flex justify-start items-center gap-2'> <div className='h-[30px] aspect-square'> <img src="/icons/home.svg"/></div> <span className='max-[320px]:hidden'> Home </span></a> </li>
+                        <li > <a href="#Portfolio" className='flex justify-start items-center gap-2'> <div className='h-[30px] aspect-square'> <img src="/icons/portfolio.svg"/></div> <span className='max-[320px]:hidden'> Portfolio </span> </a> </li>
+                        <li > <a href="#Aboutme" className='flex justify-start items-center gap-2'> <div className='h-[30px] aspect-square'> <img src="/icons/aboutme.svg"/></div> <span className='max-[320px]:hidden'> Aboute Me </span> </a> </li>
+                        <li className='flex justify-start items-center gap-2 cursor-pointer' onClick={()=>handleContactw()}> <div className='h-[30px] aspect-square'> <img src="/icons/contact2.svg"/></div> <span className='max-[320px]:hidden'> Contact me </span> </li>
                     </ul>
 
-                    <ul className='h-1/4 flex flex-row gap-5 items-center'>
+                    <ul className='h-1/4 flex flex-row gap-5 items-center max-[320px]:flex-col'>
                         <li className=' '> <div className='h-[30px] aspect-square'> <a href="https://www.linkedin.com/in/christian-orlando-silva-forero-1793a922b/" target='blank'> <img src="/icons/linkedin.svg"/> </a> </div>  </li>
                         <li className=''> <div className='h-[35px] aspect-square'> <a href="https://github.com/christianosilvaf" target='blank'> <img src="/icons/github.svg"/></a> </div>   </li>
                     </ul>
 
-                    <ul className='flex flex-row justify-evenly h-1/4 gap-5'>
+                    <ul className='flex flex-row justify-evenly h-1/4 gap-5 max-[320px]:flex-col max-[320px]:my-10'>
                         <li className='flex justify-start items-center'> <button className='h-[30px] aspect-square'> <img src="/icons/darkmode.svg"/></button> </li>
-                        <li className='flex justify-start items-center'> <button className='h-[37px] aspect-square'> <img src="/icons/language.svg"/></button> </li>
+                        <li className='flex justify-start items-center'> <button className='h-[37px] max-[320px]:h-[27px] aspect-square mx-autok'> <img src="/icons/language.svg"/></button> </li>
                     </ul>
 
                 </div>
 
             </section>
 
-            <section id="Home" className=' flex flex-col items-center relative'>
-                <div className='font-Syne font-bold my-auto text-[30px]  h-[2500px]
+            <section id="Home" className=' flex flex-col items-center justify-evenly relative gap-10 scroll-pe-*'>
+                <div className='font-Syne font-bold my-auto text-[40px] w-1/2
                                 text-center flex flex-col gap-2 items-center p-3'>
-                    <p> Hi, my name is Christian Silva and I'll be pleased to assist you as a Web Full-Stack Developer! </p>
+                    <p> Hi, my name is Christian Silva and I'll be pleased to be your Web Full-Stack Developer! </p>
                     
                     <div>
                         <ul className='flex gap-5 p-5'>
