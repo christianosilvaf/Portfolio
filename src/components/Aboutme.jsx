@@ -2,7 +2,7 @@ import React from 'react'
 
 const Aboutme = () => {
   return (
-    <section id="Aboutme" className='w-[100%] scroll-pe-*'>
+    <section id="Aboutme" className='w-[100%] my-5 scroll-pe-*'>
         <h2 className='font-Syne text-[30px] font-bold'> More About Me: </h2>
         
         <div className='flex gap-5 items-center justify-between'> 

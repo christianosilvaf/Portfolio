@@ -13,9 +13,9 @@ const Home = () => {
 
     return (
 
-        <main className='h-screen  bg-mywhite flex gap-2 scroll-smooth'>
+        <main className='h-screen flex gap-0 scroll-smooth'>
 
-            <section className='h-screen min-h-[400px] w-[300px] p-2 flex flex-col gap-3 items-center justify-center sticky max-[320px]:w-[50px]'>
+            <section className='h-screen min-h-[400px] w-[300px] p-2 flex flex-col gap-3 items-center justify-center  sticky top-0 max-[320px]:w-[50px]'>
 
                 <div className='h-[200px] aspect-square rounded-full overflow-hidden max-[320px]:h-[50px]'>
                     <img src="/profile_picture.jpg" />
@@ -45,9 +45,9 @@ const Home = () => {
 
             </section>
 
-            <section id="Home" className=' flex flex-col items-center justify-evenly relative gap-10 scroll-pe-*'>
-                <div className='font-Syne font-bold my-auto text-[40px] w-1/2
-                                text-center flex flex-col gap-2 items-center p-3'>
+            <section id="Home" className=' flex flex-col items-center gap-10 scroll-pe-*'>
+                <div className='font-Syne font-bold p-10 text-[40px] mx-10 h-[600px]
+                                text-center flex flex-col gap-2 items-center'>
                     <p> Hi, my name is Christian Silva and I'll be pleased to be your Web Full-Stack Developer! </p>
                     
                     <div>
@@ -60,8 +60,8 @@ const Home = () => {
                         </ul>
                     </div>
 
-                    <div className='flex flex-row items-center gap-2'>
-                        <button className='text-myblue'>More Info </button>
+                    <div className='flex flex-col items-center gap-2'>
+                        <button className='text-myblue text-[30px]'>Check Out Below </button>
                         <div className='h-[30px] aspect-square animate-bounce divide-slate-300 text-sea'> <img src="/icons/downarrow.svg"/></div>
                     </div>
 
