@@ -8,11 +8,11 @@ export default {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      'mywhite': '#FAFBF4',
-      'sea': '#00A0F3',
-      'myblue': '#0000FF',
-      'darkblue': '#000066',
-      'black': '#000000',
+      'darkgreen': '#191E29',
+      'bluemarin': '#132D46',
+      'palegreen': '#01C38D',
+      'gray': '#696E79',
+      'white': '#FFFFFF',
     },
 
     extend: {
